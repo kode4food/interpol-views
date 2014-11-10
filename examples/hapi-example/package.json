@@ -9,7 +9,7 @@
   "author": "Thomas S. Bradford",
   "license": "MIT",
   "dependencies": {
-    "hapi-interpol": "*",
+    "interpol-views": "*",
     "hapi": "^7.5.0"
   }
 }
