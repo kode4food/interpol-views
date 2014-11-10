@@ -21,7 +21,7 @@ If Express is started in development mode, the view engine will monitor the defa
 If Express is started with any NODE_ENV *other* than 'development' (or nil), the engine will *not* monitor the directory for changes.
 
 ## Inclusion in Kraken
-In order to use Interpol in a [Kraken](http://krakenjs.com/) app, you will have to modify `config/app.json` to include the following:
+In order to use Interpol in a [Kraken.js](http://krakenjs.com/) app, you will have to modify `config/app.json` to include the following:
 
 ```json
 "view engines": {
