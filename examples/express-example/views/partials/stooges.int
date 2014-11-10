@@ -1,0 +1,17 @@
+def renderList(people)
+  "There are %length stooges" % people
+  <ul>
+    for person in people, brother in person.brothers
+      renderItem(person.name, brother)
+    end
+  </ul>
+end
+
+def renderList(people)
+when not people
+  "Um, no people?"
+end
+
+def renderItem(name, brother)
+  <li>"%name is the brother of %brother"</li>
+end

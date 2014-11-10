@@ -1,0 +1,5 @@
+from layout.main import mainLayout
+from partials.stooges import renderList
+
+let renderPeople = @renderList(people)
+mainLayout(title, renderPeople)

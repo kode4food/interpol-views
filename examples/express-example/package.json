@@ -1,0 +1,13 @@
+{
+  "name": "express-example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.4.4",
+    "morgan": "^1.1.1",
+    "interpol-views": "*"
+  }
+}

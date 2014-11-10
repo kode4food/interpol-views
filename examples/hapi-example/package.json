@@ -1,0 +1,15 @@
+{
+  "name": "hapi-interpol-example",
+  "version": "0.0.1",
+  "description": "A quick and dirty hapi-interpol example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas S. Bradford",
+  "license": "MIT",
+  "dependencies": {
+    "hapi-interpol": "*",
+    "hapi": "^7.5.0"
+  }
+}

@@ -1,0 +1,6 @@
+from layout.main import mainLayout
+mainLayout("Error", renderMessage)
+
+def renderMessage
+  "Uncaught Exception: %message"
+end
