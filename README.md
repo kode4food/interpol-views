@@ -20,27 +20,6 @@ If Express is started in development mode, the view engine will monitor the defa
 
 If Express is started with any NODE_ENV *other* than 'development' (or nil), the engine will *not* monitor the directory for changes.
 
-## Inclusion in Kraken
-In order to use Interpol in a [Kraken.js](http://krakenjs.com/) app, you will have to modify `config/app.json` to include the following:
-
-```json
-"view engines": {
-  "int": {
-    "module": "interpol-views"
-  }
-}
-```
-
-Also, if you plan to use Interpol as your default view engine, you can configure it like so:
-
-```json
-"express": {
-  "view engine": "int"
-}
-```
-
-*Note:* Be aware that Interpol template filenames must contain valid Interpol identifers, so filenames like `errors/400.dust` will have to become something like `errors/http_400.int`.
-
 ### Pre-compiled JavaScript for Production
 The benefit of pre-compiled JavaScript is that you can be minimally sure that your template has at least been parsed properly before deploying it.  Also, the initial parsing step using Interpol's PEG.js parser is rather expensive, even if it's only performed once.
 
@@ -57,20 +36,7 @@ app.engine('int', viewEngine);
 app.set('view engine', 'int');
 ```
 
-In Kraken, it's a little more straight-forward, as you just add settings to your view engine definition:
-
-```json
-"view engines": {
-  "int": {
-    "module": "interpol-views",
-    "settings": {
-      "compile": false
-    }
-  }
-}
-```
-
-After that, just launch the interpol command-line against your views (or public/templates) directory:
+After that, just launch the interpol command-line against your views directory:
 
 ```bash
 interpol -in ./views

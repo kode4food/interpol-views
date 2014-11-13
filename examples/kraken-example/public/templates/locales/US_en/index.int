@@ -1,9 +1,0 @@
-import locales.US_en.errors
-
-def title
-  "Interpol Kraken Example"
-end
-
-def greeting(name)
-  "Hello, %name!"
-end

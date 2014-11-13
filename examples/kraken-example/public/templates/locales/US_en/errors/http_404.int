@@ -1,9 +1,0 @@
-def header
-  "File not found"
-end
-
-def description(url)
-  "The URL"
-  <code>url</code>
-  "did not resolve to a route."
-end
