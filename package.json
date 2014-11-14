@@ -2,7 +2,7 @@
   "name": "interpol-views",
   "description": "Interpol View Engine for Node.js Web Frameworks",
   "author": "Thomas S. Bradford",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "homepage": "http://www.interpoljs.io/",
   "main": "index.js",
