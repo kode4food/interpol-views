@@ -2,7 +2,7 @@
   "name": "interpol-views",
   "description": "Interpol View Engine for Node.js Web Frameworks",
   "author": "Thomas S. Bradford",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "license": "MIT",
   "homepage": "http://www.interpoljs.io/",
   "main": "index.js",
@@ -21,7 +21,7 @@
   ],
   "repository": "git@bitbucket.org:kode4food/interpol-views",
   "dependencies": {
-    "interpol": "^0.9.3"
+    "interpol": "^1.0.0"
   },
   "devDependencies": {
   },

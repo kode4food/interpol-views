@@ -1,13 +1,11 @@
 {
-  "name": "hapi-interpol-example",
+  "name": "hapi-example",
+  "private": true,
   "version": "0.0.1",
-  "description": "A quick and dirty hapi-interpol example",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "Thomas S. Bradford",
-  "license": "MIT",
   "dependencies": {
     "interpol-views": "*",
     "hapi": "^7.5.0"

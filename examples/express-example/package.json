@@ -1,7 +1,8 @@
 {
   "name": "express-example",
-  "version": "0.0.1",
   "private": true,
+  "version": "0.0.1",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
