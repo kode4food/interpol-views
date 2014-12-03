@@ -19,7 +19,7 @@
       "email": "thom@kode4food.it"
     }
   ],
-  "repository": "git@bitbucket.org:kode4food/interpol-views",
+  "repository": "git@github.com:kode4food/interpol-views",
   "dependencies": {
     "interpol": "^1.0.0"
   },
